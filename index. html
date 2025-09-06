@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Party Invitation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+        .invitation {
+            width: 80%;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .invitation h1 {
+            color: #ff69b4;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .invitation p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .invitation .details {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .invitation .btn {
+            background-color: #ff69b4;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .invitation .btn:hover {
+            background-color: #ff99cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="invitation">
+        <h1>You're Invited to a Birthday Party!</h1>
+        <p>Join us for an unforgettable celebration of [Name]'s birthday!</p>
+        <div class="details">
+            Date: [Date]<br>
+            Time: [Time]<br>
+            Location: [Location]
+        </div>
+        <p>We can't wait to see you there!</p>
+        <button class="btn">RSVP Now</button>
+    </div>
+</body>
+</html>
